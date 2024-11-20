@@ -1,9 +1,9 @@
-const OnePage = () => {
-  return (
-    <>
-    <Component {...pageProps} />
-    </>
-  )
-};
+import DisplayedData from "@/components/displayeddata";
 
-export default OnePage;
+function Home() {
+  return (
+    <DisplayedData />
+  )
+}
+
+export default Home
